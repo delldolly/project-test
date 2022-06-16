@@ -1,0 +1,29 @@
+.image-slider {
+    max-width: 480px;
+}
+
+.image-show {
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    display: inline-block;
+    width: 100%;
+}
+
+.slide-wrapper {
+    margin: auto;
+    width: 480px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-wrapper > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+}

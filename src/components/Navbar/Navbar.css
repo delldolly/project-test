@@ -1,0 +1,40 @@
+.navbar-container {
+    width: 100%;
+    /* position: fixed;
+    top: 0; */
+    background-color: #000000b3;
+    color: #ffffff;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    height: 40px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-bar {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select-bar .menu-label {
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+}
+
+.select-bar .menu-icon {
+    cursor: pointer;
+    margin: auto 20px;
+    text-align: center;
+}
